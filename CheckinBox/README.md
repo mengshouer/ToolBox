@@ -21,6 +21,8 @@
 
 - [PT 站点签到](https://github.com/mengshouer/ToolBox/tree/master/CheckinBox/ptWebsite)
 
+- [百度贴吧签到](https://github.com/mengshouer/ToolBox/tree/master/CheckinBox/Baidu)
+
 </details>
 
 <details>
@@ -60,7 +62,7 @@
 
 4. 高级设置，添加多个环境变量 key 内输入：1.env1_sample 2.env2_sample 3.推送服务设置值(可选)
 
-value 内输入：1.value1_sample 2.value2_sample 3.推送服务设置值(可选)， 具体的环境变量和值到各脚本里面查看
+    value 内输入：1.value1_sample 2.value2_sample 3.推送服务设置值(可选)， 具体的环境变量和值到各脚本里面查看
 
 5. 层配置，添加层，选择刚才新建的层。最后点完成
 
