@@ -50,9 +50,11 @@
 
 </details>
 
-### [腾讯云函数 SCF](https://console.cloud.tencent.com/scf/index)的版本
+<details>
+  <summary>腾讯云函数 SCF的版本</summary>
 
-### SCF 计费问题：免费额度变少了，小心超额付费，[账单详细](https://console.cloud.tencent.com/expense/bill/summary?businessCode=p_scf)
+# [腾讯云函数]((https://console.cloud.tencent.com/scf/index))将取消免费额度
+### SCF 计费问题：2022 年 5 月 23 日开始，云函数的 永久免费额度 将会调整为 新用户3个月大额免费额度+从第四个月开始无免费额度 。小心付费，[账单详细](https://console.cloud.tencent.com/expense/bill/summary?businessCode=p_scf)
 
 1. 下载[requirements.zip](https://github.com/mengshouer/ToolBox/releases)所需库，到[层](https://console.cloud.tencent.com/scf/layer)里面新建一个层，运行环境选 Python3.7
 
@@ -69,6 +71,8 @@
 6. 进入函数 → 触发管理 → 新建触发器，按自己需求定时启动
 
 7. 自己酌情修改函数的内存与执行超时时间以及其他参数
+
+</details>
 
 <details>
   <summary>多账号设置</summary>
