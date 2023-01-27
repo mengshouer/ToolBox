@@ -30,15 +30,13 @@ def main(cookie, website):
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36"
             }
         )
-        if "haidan" in website:
-            url = f"https://www.haidan.video/signin.php"
-        else:
-            url = f"{website}?action=addbonus"
+
+        url = f"{website}?action=addbonus"
 
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",
+            "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
             "Cookie": cookie,
-            "Content-type": "text/html; charset=utf-8; Cache-control:private",
             "Referer": website,
         }
 
