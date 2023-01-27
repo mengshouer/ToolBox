@@ -7,14 +7,6 @@
 
 - [最终幻想 14 积分商城签到](https://github.com/mengshouer/ToolBox/tree/master/CheckinBox/FF14Checkin)
 
-- [什么值得买网页每日签到](https://github.com/mengshouer/ToolBox/tree/master/CheckinBox/smzdmCheckin)
-
-- [52pojie 每日签到 + 免费评分](https://github.com/mengshouer/ToolBox/tree/master/CheckinBox/Checkin52pj)
-
-- [网易云音乐每日签到与刷歌单](https://github.com/mengshouer/ToolBox/tree/master/CheckinBox/NetEase_Music_daily)
-
-- [有道云笔记签到](https://github.com/mengshouer/ToolBox/tree/master/CheckinBox/NoteyoudaoCheckin)
-
 - [V2EX 签到](https://github.com/mengshouer/ToolBox/tree/master/CheckinBox/V2EX)
 
 - [恩山论坛签到](https://github.com/mengshouer/ToolBox/tree/master/CheckinBox/Enshan)
@@ -38,7 +30,7 @@
 
 `task python3 -m pip install -r https://ghproxy.com/https://raw.githubusercontent.com/mengshouer/ToolBox/master/CheckinBox/requirements.txt`
 
-如果上面安装依赖报错，跑一边`apk add --no-cache rust cargo libxml2 libxslt libxml2-dev libxslt-dev`再安装一次
+如果上面安装依赖报错，跑一遍`apk add --no-cache build-base`再安装一次
 
 `ql repo https://github.com/mengshouer/ToolBox.git "CheckinBox" "pusher"` 拉取仓库
 
@@ -53,8 +45,9 @@
 <details>
   <summary>腾讯云函数 SCF的版本</summary>
 
-# [腾讯云函数]((https://console.cloud.tencent.com/scf/index))将取消免费额度
-### SCF 计费问题：2022 年 5 月 23 日开始，云函数的 永久免费额度 将会调整为 新用户3个月大额免费额度+从第四个月开始无免费额度 。小心付费，[账单详细](https://console.cloud.tencent.com/expense/bill/summary?businessCode=p_scf)
+# [腾讯云函数](<(https://console.cloud.tencent.com/scf/index)>)将取消免费额度
+
+### SCF 计费问题：2022 年 5 月 23 日开始，云函数的 永久免费额度 将会调整为 新用户 3 个月大额免费额度+从第四个月开始无免费额度 。小心付费，[账单详细](https://console.cloud.tencent.com/expense/bill/summary?businessCode=p_scf)
 
 1. 下载[requirements.zip](https://github.com/mengshouer/ToolBox/releases)所需库，到[层](https://console.cloud.tencent.com/scf/layer)里面新建一个层，运行环境选 Python3.7
 
@@ -64,7 +57,7 @@
 
 4. 高级设置，添加多个环境变量 key 内输入：1.env1_sample 2.env2_sample 3.推送服务设置值(可选)
 
-    value 内输入：1.value1_sample 2.value2_sample 3.推送服务设置值(可选)， 具体的环境变量和值到各脚本里面查看
+   value 内输入：1.value1_sample 2.value2_sample 3.推送服务设置值(可选)， 具体的环境变量和值到各脚本里面查看
 
 5. 层配置，添加层，选择刚才新建的层。最后点完成
 

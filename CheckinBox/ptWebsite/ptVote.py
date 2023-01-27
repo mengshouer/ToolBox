@@ -65,9 +65,9 @@ def main(cookie, website):
     url = f'{website.replace("index.php", "fun.php")}?action=vote&id={vote_id}&yourvote=fun'
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36Safari/537.36",
+        "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
         "Cookie": cookie,
-        "Content-type": "text/html; charset=utf-8; Cache-control:private",
         "Referer": website,
     }
 
